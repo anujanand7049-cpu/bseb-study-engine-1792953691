@@ -1,0 +1,4 @@
+-keepattributes *Annotation*,InnerClasses,Signature
+-keep class in.bseb.studyengine.data.local.** { *; }
+-keep class in.bseb.studyengine.domain.model.** { *; }
+-dontwarn javax.annotation.**
